@@ -2,12 +2,12 @@
 #
 
 # Site settings
-title: OOPEE KOREA
+title: OOPEE
 description: |
   Another fine responsive  
   site template freebie  
   crafted by [HTML5 UP](http://html5up.net)
-owner: OOPEE KOREA # or company name
+owner: OOPEE # or company name
 first_published: 2021 # if migrating another site, the year of your first publish
 email: support@oopee.com
 baseurl: "" # the subpath of your site, e.g. /blog
