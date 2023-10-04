@@ -9,13 +9,13 @@
           <ul>
             <li><a href="index.html">우피코리아</a></li>
             {% for my_page in site.pages %}
-            {% if page.title == "개인정보 취급 방침" %}
+            {% if my_page.title == "개인정보 취급 방침" %}
             <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
             {% else %}
-              {% if page.title == "서비스 이용 약관" %}
+              {% if my_page.title == "서비스 이용 약관" %}
               <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
               {% else %}
-                {% if page.title == "고객지원" %}
+                {% if my_page.title == "고객지원" %}
                 <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
                 {% else %}
                 <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
