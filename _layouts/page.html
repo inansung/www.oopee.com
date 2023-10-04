@@ -5,7 +5,11 @@ layout: default
 
   <header>
     <h2>{{ page.title }}</h2>
+    {% if page.title == "개인정보 취급 방침" %}
+    <p>Privacy Policy</p>
+    {% else %}
     <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+    {% endif %}
   </header>
 
   <section class="wrapper style5">
