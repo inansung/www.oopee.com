@@ -11,7 +11,11 @@ layout: default
       {% if page.title == "서비스 이용 약관" %}
       <p>Terms of Use</p>
       {% else %}
-      <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+        {% if page.title == "고객지원" %}
+        <p>Always with you</p>
+        {% else %}
+        <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+        {% endif %}
       {% endif %}
     {% endif %}
   </header>
