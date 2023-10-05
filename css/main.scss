@@ -1348,7 +1348,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		padding-top: 3em;
 
 		&:before {
-			background: rgba(0,0,0,0);
+			background: rgba(255,255,255,1);
 			content: '';
 			display: block;
 			display: none;
