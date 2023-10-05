@@ -1050,7 +1050,6 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include vendor('order', '2');
 			max-width: 48em;
 			width: 60%;
-			background: rgba(255,255,255,1);
 			color: rgba(255,255,255,1);
 		}
 
@@ -1317,7 +1316,8 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style2 {
-			background-color: _palette(bg);
+			/*  background-color: _palette(bg); */
+			background-color: rgba(255,255,255,1);
 		}
 
 		&.style3 {
