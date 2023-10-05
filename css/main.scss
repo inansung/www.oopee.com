@@ -1311,13 +1311,16 @@ $baseurl: '{{ site.baseurl }}/images';
 			padding: 0;
 		}
 
+		&.alt2 {
+			padding: 5em 5em 5em 5em;
+		}
+
 		&.style1 {
 			@include wrapper(accent1);
 		}
 
 		&.style2 {
-			/*  background-color: _palette(bg); */
-			background-color: rgba(255,255,255,1);
+			background-color: _palette(bg);
 		}
 
 		&.style3 {
@@ -1330,6 +1333,10 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.style5 {
 			@include wrapper(accent7);
+		}
+
+		&.style6 {
+			background-color: rgba(255,255,255,1);
 		}
 
 		@include breakpoint(medium) {
