@@ -1035,7 +1035,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include vendor('display', 'flex');
 
 		.image {
-			@include padding(10em, 10em);
+			@include padding(2em, 2em);
 			@include vendor('order', '1');
 			border-radius: 0;
 			width: 40%;
