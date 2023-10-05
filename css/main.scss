@@ -1050,6 +1050,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include vendor('order', '2');
 			max-width: 48em;
 			width: 60%;
+			background: rgba(255,255,255,1);
 			color: rgba(255,255,255,1);
 		}
 
@@ -1348,7 +1349,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		padding-top: 3em;
 
 		&:before {
-			background: rgba(255,255,255,1);
+			background: rgba(0,0,0,0);
 			content: '';
 			display: block;
 			display: none;
