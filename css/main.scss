@@ -1050,7 +1050,6 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include vendor('order', '2');
 			max-width: 48em;
 			width: 60%;
-			color: rgba(255,255,255,1);
 		}
 
 		&:nth-child(2n) {
@@ -1312,7 +1311,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.alt2 {
-			padding: 5em 5em 5em 5em;
+			padding: 20em 20em 20em 20em;
 		}
 
 		&.style1 {
