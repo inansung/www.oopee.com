@@ -1345,7 +1345,8 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.style7 {
 			@include wrapper(accent1);
-			background-color: rgba(0,64,122,1);
+			/* background-color: rgba(0,64,122,1); */
+			background-color: rgba(46,86,106,1);
 		}
 
 		@include breakpoint(medium) {
