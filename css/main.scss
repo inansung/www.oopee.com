@@ -1350,7 +1350,9 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style8 {
-			background-color: rgba(236,236,236,1);
+			/* background-color: rgba(236,236,236,1); */
+			background-color: rgba(228,228,228,1);
+
 		}
 
 		@include breakpoint(medium) {
