@@ -1218,6 +1218,12 @@ $baseurl: '{{ site.baseurl }}/images';
 				}
 			}
 
+			.icon2 {
+				&.major {
+					border-color: _palette($p, border);
+				}
+			}
+
 		// List
 
 			ul {
@@ -1350,11 +1356,11 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style8 {
-			@include wrapper(accent1);
+			@include wrapper(accent6);
 			/* background-color: rgba(236,236,236,1); */
 			/* background-color: rgba(228,228,228,1); */
 			/* background-color: rgba(58,109,134,1); */
-			background-color: rgba(91,146,173,1);
+			/* background-color: rgba(91,146,173,1); */
 
 		}
 
