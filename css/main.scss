@@ -1220,7 +1220,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			.icon2 {
 				&.major {
-					border-color: _palette($p, border);
+					border-color: rgba(0,0,0,1);
 				}
 			}
 
