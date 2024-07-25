@@ -16,15 +16,19 @@ layout: default
         {% else %}
           {% if page.title == "서비스 이용 약관" %}
           <p>Terms of Use</p>
-        {% else %}
-          {% if page.title == "Google oAuth2 Policy" %}
-          <p>Google oAuth2 Homepage</p>
           {% else %}
-            {% if page.title == "고객지원" %}
-            <p>Customer Supports</p>
+            {% if page.title == "위치정보 이용약관" %}
+            <p>Location Information Policy</p>
             {% else %}
-            <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
-            {% endif %}
+              {% if page.title == "Google oAuth2 Policy" %}
+              <p>Google oAuth2 Homepage</p>
+              {% else %}
+                {% if page.title == "고객지원" %}
+                <p>Customer Supports</p>
+                {% else %}
+                <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+                {% endif %}
+              {% endif %}
             {% endif %}
           {% endif %}
         {% endif %}
